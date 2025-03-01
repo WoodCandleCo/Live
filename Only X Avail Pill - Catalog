@@ -1,0 +1,12 @@
+/* onlyxavail on catalog */
+div.product-scarcity {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #2C3E50 !important;
+  background: #FDF0E6;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: inline-block
+}
