@@ -1,0 +1,15 @@
+// Header Navigation - Pill Hover Style Light Tan - Ghost //
+.store-page .header-nav-item a {
+  padding: 5px 12px !important;
+  background-image: none !important;
+  transition: all ease-in-out .2s !important;
+}
+
+.store-page .header-nav-item a:hover {
+  background: #FDF0E6;
+  text-transform: uppercase !important;
+  color: #2C3E50 !important;
+  padding: 5px 12px;
+  border-radius: 50px;
+  transition: all ease-in-out .2s !important;
+}

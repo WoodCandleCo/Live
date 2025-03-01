@@ -1,0 +1,15 @@
+// Header Navigation - Pill Hover Style Yellow - Ghost //
+.header-nav-item a {
+  padding: 5px 12px !important;
+  background-image: none !important;
+  transition: all ease-in-out .2s !important;
+}
+
+.header-nav-item a:hover {
+  background: #FFC857;
+  text-transform: uppercase !important;
+  color: #565656 !important;
+  padding: 5px 12px;
+  border-radius: 50px;
+  transition: all ease-in-out .2s !important;
+}
