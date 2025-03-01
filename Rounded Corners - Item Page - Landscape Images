@@ -1,0 +1,12 @@
+/* Item page landscape images rounded corners */
+img.ProductItem-gallery-slides-item-image {
+  width: 100%;
+  height: auto !important;
+  object-position: unset !important;
+  object-fit: unset !important;
+  border-radius: 15px !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

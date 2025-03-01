@@ -1,0 +1,5 @@
+/* Homepage trending and all summary blocks rounded corners */
+body.homepage .summary-thumbnail.img-wrapper {
+  border-radius: 15px;
+}
+

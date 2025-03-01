@@ -1,0 +1,1368 @@
+
+/*
+PLACE IN CUSTOM CSS
+
+  begin payment processor icons
+  
+  License       : < https://tinyurl.com/s872fb68 >
+  
+  Version       : 0.5.3
+  
+  SS Versions   : 7.1, 7.0
+  
+  v7.1
+  Fluid
+  Engine
+  Compatible    : Yes
+  
+  Dependencies  : LESS
+  
+  Copyright     : 2021-2024 Thomas Creedon
+                  
+                  Tom's Web Consulting < http://www.tomsWeb.consulting/ >
+  
+  */
+
+// justify-content values see < https://mzl.la/32Lkas4 >
+
+@justify-content : left;
+
+@height-width : 30px;
+
+@spacing : 10px;
+
+#display-order {
+
+  #afterpay {
+
+    #badge {
+
+      #black-on-bondi-mint {
+        // index 1
+
+        // display : none;
+        @order : 7;
+
+      }
+
+      #bondi-mint-on-black {
+        // index 2
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #white-on-black {
+        // index 3
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #black-on-white {
+        // index 4
+
+        display: none;
+        @order : 0;
+
+      }
+
+    }
+
+    // end badge
+
+    #lockup {
+
+      #black {
+        // index 5
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #mint {
+        // index 6
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #white {
+        // index 7
+
+        display: none;
+        @order : 0;
+
+      }
+
+    }
+
+    // end lockup
+
+  }
+
+  // end afterpay
+
+  #american-express {
+
+    #logo {
+
+      #blue-bright {
+        // index 8
+
+        // display : none;
+        @order : 3;
+
+      }
+
+      #blue-dark {
+        // index 9
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #neutral-bright {
+        // index 10
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #neutral-dark {
+        // index 11
+
+        display: none;
+        @order : 0;
+
+      }
+
+    }
+
+    // end logo
+
+    #logotype {
+
+      #one-line {
+
+        #blue-bright {
+          // index 12
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #blue-dark {
+          // index 13
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #neutral-bright {
+          // index 14
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #neutral-dark {
+          // index 15
+
+          display: none;
+          @order : 0;
+
+        }
+
+      }
+
+      // one line
+
+      #two-lines {
+
+        #blue-bright {
+          // index 16
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #blue-dark {
+          // index 17
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #neutral-bright {
+          // index 18
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #neutral-dark {
+          // index 19
+
+          display: none;
+          @order : 0;
+
+        }
+
+      }
+
+      // two lines
+
+    }
+
+    // end logotype
+
+  }
+
+  // end american express
+
+  #apple-pay {
+    // index 20
+
+    // display : none;
+    @order : 8;
+
+  }
+
+  #clearpay {
+
+    #badge {
+
+      #black-on-bondi-mint {
+        // index 21
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #bondi-mint-on-black {
+        // index 22
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #white-on-black {
+        // index 23
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #black-on-white {
+        // index 24
+
+        display: none;
+        @order : 0;
+
+      }
+
+    }
+
+    // badge
+
+    #lockup {
+
+      #black {
+        // index 25
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #mint {
+        // index 26
+
+        display: none;
+        @order : 0;
+
+      }
+
+      #white {
+        // index 27
+
+        display: none;
+        @order : 0;
+
+      }
+
+    }
+
+    // lockup
+
+  }
+
+  // clearpay
+
+  #diners-club {
+    // index 28
+
+    display: none;
+    @order : 0;
+
+  }
+
+  #discover {
+
+    #primary {
+      // index 29
+
+      // display : none;
+      @order : 4;
+
+    }
+
+    #secondary {
+      // index 30
+
+      display: none;
+      @order : 0;
+
+    }
+
+  }
+
+  #jcb {
+    // index 31
+
+    display: none;
+    @order : 0;
+
+  }
+
+  #link-by-stripe {
+
+    #dark {
+      // index 32
+
+      // display : none;
+      @order : 5;
+
+    }
+
+    #light {
+      // index 33
+
+      // display : none;
+      @order : 5;
+
+    }
+
+  }
+
+  // end link-by-stripe
+
+  #mastercard {
+
+    #symbol {
+      // index 34
+
+      display: none;
+      @order : 0;
+
+    }
+
+    #brand-mark {
+
+      #vertical {
+
+        #white-light {
+          // index 35
+
+          // display : none;
+          @order : 2;
+
+        }
+
+        #black-dark {
+          // index 36
+
+          // display : none;
+          @order : 2;
+
+        }
+
+      }
+
+      // vertical
+
+      #horizontal {
+
+        #white-light {
+          // index 37
+
+          display: none;
+          @order : 0;
+
+        }
+
+        #black-dark {
+          // index 38
+
+          display: none;
+          @order : 0;
+
+        }
+
+      }
+
+      // horizontal
+
+    }
+
+    // end brand mark
+
+  }
+
+  // end mastercard
+
+  #paypal {
+    // index 39
+
+    // display : none;
+    @order : 6;
+
+  }
+
+  #stripe {
+
+    #slate {
+      // index 40
+
+      display: none;
+      @order : 0;
+
+    }
+
+    #white {
+      // index 41
+
+      display: none;
+      @order : 0;
+
+    }
+
+    #blurple {
+      // index 42
+
+      display: none;
+      @order : 0;
+
+    }
+
+  }
+
+  // end stripe
+
+  #unionpay {
+    // index 43
+
+    display: none;
+    @order : 0;
+
+  }
+
+  #visa {
+
+    #black {
+      // index 44
+
+      display: none;
+      @order : 0;
+
+    }
+
+    #white {
+      // index 45
+
+      // display : none;
+      @order : 1;
+
+    }
+
+    #blue {
+      // index 46
+
+      // display : none;
+      @order : 1;
+
+    }
+
+  }
+
+  // end visa
+
+}
+
+// end display order
+
+#twc-ppi {
+
+  // for diagnostics the background color is set to gray, for production
+  // change gray to unset
+
+  background-color: unset;
+
+}
+
+.twc-ppi-icon-index {
+
+  // for configuration; index numbers proceed the icons, for production
+  // change unset to none
+
+  display: none;
+
+}
+
+// do not change anything below, there be the borg here
+
+#twc-ppi {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: @spacing;
+  justify-content: @justify-content;
+  margin: @spacing;
+
+}
+
+.twc-ppi-icon {
+
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: @spacing / 2;
+
+  svg {
+
+    height: @height-width;
+    width: @height-width;
+
+  }
+
+}
+
+.twc-ppi-icon-index {
+
+  background-color: var(--siteBackgroundColor);
+  font-weight: bold;
+  padding: 0em 1em;
+
+}
+
+#twc-ppi-symbol {
+
+  left: -300px;
+  position: absolute;
+  top: -150px;
+
+}
+
+.afterpay,
+.clearpay {
+
+  #svg () {
+
+    min-width: 75px; // ap and cp allow down to 64px
+    width: @height-width * 1.66666667;
+
+  }
+
+  &.badge {
+
+    &.black-on-bondi-mint,
+    &.bondi-mint-on-black,
+    &.white-on-black,
+    &.black-on-white {
+
+      svg {
+
+        #svg ();
+
+      }
+
+    }
+
+  }
+
+  // end badge
+
+  &.lockup {
+
+    &.black,
+    &.mint,
+    &.white {
+
+      svg {
+
+        #svg ();
+
+      }
+
+    }
+
+  }
+
+  // end lockup
+
+}
+
+// end afterpay and clearpay
+
+.american-express {
+
+  &.logo {
+
+    &.bright-blue svg {
+
+      fill: #3a6cbe;
+
+    }
+
+    &.dark-blue svg {
+
+      fill: #1e2a51;
+
+    }
+
+    &.bright-neutral svg {
+
+      fill: #868e96;
+
+    }
+
+    &.dark-neutral svg {
+
+      fill: #2e2a2b;
+
+    }
+
+  }
+
+  &.logotype {
+
+    &.one-line {
+
+      svg {
+
+        width: @height-width * 2.3333333;
+
+      }
+
+      &.bright-blue svg {
+
+        fill: #3a6cbe;
+
+      }
+
+      &.dark-blue svg {
+
+        fill: #1e2a51;
+
+      }
+
+      &.bright-neutral svg {
+
+        fill: #868e96;
+
+      }
+
+      &.dark-neutral svg {
+
+        fill: #2e2a2b;
+
+      }
+
+    }
+
+    // end one line
+
+    &.two-lines {
+
+      svg {
+
+        width: @height-width * 1.26666666;
+
+      }
+
+      &.bright-blue svg {
+
+        fill: #3a6cbe;
+
+      }
+
+      &.dark-blue svg {
+
+        fill: #1e2a51;
+
+      }
+
+      &.bright-neutral svg {
+
+        fill: #868e96;
+
+      }
+
+      &.dark-neutral svg {
+
+        fill: #2e2a2b;
+
+      }
+
+    }
+
+    // end two lines
+
+  }
+
+  // end logotype
+
+}
+
+// end american express
+
+.link-by-stripe {
+
+  &.dark,
+  &.light {
+
+    svg {
+
+      width: @height-width * 1.8333333;
+
+    }
+
+  }
+
+}
+
+.mastercard.brand-mark.horizontal {
+
+  &.white-light,
+  &.black-dark {
+
+    svg {
+
+      width: @height-width * 1.5333333;
+
+    }
+
+  }
+
+}
+
+// paypal
+
+#paypal-icon svg {
+
+  width: @height-width * 1.66666667;
+
+}
+
+// begin display/order icons
+
+#twc-ppi {
+
+  .order (@order ) {
+
+    order: @order;
+
+  }
+
+  .afterpay {
+
+    &.badge {
+
+      &.black-on-bondi-mint {
+
+        #display-order#afterpay#badge#black-on-bondi-mint;
+
+        .order (@order );
+
+      }
+
+      &.bondi-mint-on-black {
+
+        #display-order#afterpay#badge#bondi-mint-on-black;
+
+        .order (@order );
+
+      }
+
+      &.white-on-black {
+
+        #display-order#afterpay#badge#white-on-black;
+
+        .order (@order );
+
+      }
+
+      &.black-on-white {
+
+        #display-order#afterpay#badge#black-on-white;
+
+        .order (@order );
+
+      }
+
+    }
+
+    // end badge
+
+    &.lockup {
+
+      &.black {
+
+        #display-order#afterpay#lockup#black;
+
+        .order (@order );
+
+      }
+
+      &.mint {
+
+        #display-order#afterpay#lockup#mint;
+
+        .order (@order );
+
+      }
+
+      &.white {
+
+        #display-order#afterpay#lockup#white;
+
+        .order (@order );
+
+      }
+
+    }
+
+    // end lockup
+
+  }
+
+  // end afterpay
+
+  .american-express {
+
+    &.logo {
+
+      &.bright-blue {
+
+        #display-order#american-express#logo#blue-bright;
+
+        .order (@order );
+
+      }
+
+      &.dark-blue {
+
+        #display-order#american-express#logo#blue-dark;
+
+        .order (@order );
+
+      }
+
+      &.bright-neutral {
+
+        #display-order#american-express#logo#neutral-bright;
+
+        .order (@order );
+
+      }
+
+      &.dark-neutral {
+
+        #display-order#american-express#logo#neutral-dark;
+
+        .order (@order );
+
+      }
+
+    }
+
+    // end logo
+
+    &.logotype {
+
+      &.one-line {
+
+        &.bright-blue {
+
+          #display-order#american-express#logotype#one-line#blue-bright;
+
+          .order (@order );
+
+        }
+
+        &.dark-blue {
+
+          #display-order#american-express#logotype#one-line#blue-dark;
+
+          .order (@order );
+
+        }
+
+        &.bright-neutral {
+
+          #display-order#american-express#logotype#one-line#neutral-bright;
+
+          .order (@order );
+
+        }
+
+        &.dark-neutral {
+
+          #display-order#american-express#logotype#one-line#neutral-dark;
+
+          .order (@order );
+
+        }
+
+      }
+
+      // end two lines
+
+      &.two-lines {
+
+        &.bright-blue {
+
+          #display-order#american-express#logotype#two-lines#blue-bright;
+
+          .order (@order );
+
+        }
+
+        &.dark-blue {
+
+          #display-order#american-express#logotype#two-lines#blue-dark;
+
+          .order (@order );
+
+        }
+
+        &.bright-neutral {
+
+          #display-order#american-express#logotype#two-lines#neutral-bright;
+
+          .order (@order );
+
+        }
+
+        &.dark-neutral {
+
+          #display-order#american-express#logotype#two-lines#neutral-dark;
+
+          .order (@order );
+
+        }
+
+      }
+
+      // end two lines
+
+    }
+
+    // end logotype
+
+  }
+
+  // end american express
+
+  #apple-pay-mark-icon {
+
+    #display-order#apple-pay;
+
+    .order (@order );
+
+  }
+
+  .clearpay {
+
+    &.badge {
+
+      &.black-on-bondi-mint {
+
+        #display-order#clearpay#badge#black-on-bondi-mint;
+
+        .order (@order );
+
+      }
+
+      &.bondi-mint-on-black {
+
+        #display-order#clearpay#badge#bondi-mint-on-black;
+
+        .order (@order );
+
+      }
+
+      &.white-on-black {
+
+        #display-order#clearpay#badge#white-on-black;
+
+        .order (@order );
+
+      }
+
+      &.black-on-white {
+
+        #display-order#clearpay#badge#black-on-white;
+
+        .order (@order );
+
+      }
+
+    }
+
+    // end badge
+
+    &.lockup {
+
+      &.black {
+
+        #display-order#clearpay#lockup#black;
+
+        .order (@order );
+
+      }
+
+      &.mint {
+
+        #display-order#clearpay#lockup#mint;
+
+        .order (@order );
+
+      }
+
+      &.white {
+
+        #display-order#clearpay#lockup#white;
+
+        .order (@order );
+
+      }
+
+    }
+
+    // end lockup
+
+  }
+
+  // end clearpay
+
+  #diners-club-icon {
+
+    #display-order#diners-club;
+
+    .order (@order );
+
+  }
+
+  .discover {
+
+    &.primary {
+
+      #display-order#discover#primary;
+
+      .order (@order );
+
+    }
+
+    &.secondary {
+
+      #display-order#discover#secondary;
+
+      .order (@order );
+
+    }
+
+    &.blurple {
+
+      #display-order#stripe#blurple;
+
+      .order (@order );
+
+    }
+
+  }
+
+  // end discover
+
+  #jcb-icon {
+
+    #display-order#jcb;
+
+    .order (@order );
+
+  }
+
+  .link-by-stripe {
+
+    &.dark {
+
+      #display-order#link-by-stripe#dark;
+
+      .order (@order );
+
+    }
+
+    &.light {
+
+      #display-order#link-by-stripe#light;
+
+      .order (@order );
+
+    }
+
+    &.blurple {
+
+      #display-order#stripe#blurple;
+
+      .order (@order );
+
+    }
+
+  }
+
+  // end link by stripe
+
+  // begin mastercard
+
+  #mastercard-symbol-icon {
+
+    #display-order#mastercard#symbol;
+
+    .order (@order );
+
+  }
+
+  .mastercard {
+
+    &.brand-mark {
+
+      &.vertical {
+
+        &.white-light {
+
+          #display-order#mastercard#brand-mark#vertical#white-light;
+
+          .order (@order );
+
+        }
+
+        &.black-dark {
+
+          #display-order#mastercard#brand-mark#vertical#black-dark;
+
+          .order (@order );
+
+        }
+
+      }
+
+      // end vertical
+
+      &.horizontal {
+
+        &.white-light {
+
+          #display-order#mastercard#brand-mark#horizontal#white-light;
+
+          .order (@order );
+
+        }
+
+        &.black-dark {
+
+          #display-order#mastercard#brand-mark#horizontal#black-dark;
+
+          .order (@order );
+
+        }
+
+      }
+
+      // end horizontal
+
+    }
+
+    // end brand mark
+
+  }
+
+  // end mastercard
+
+  #paypal-icon {
+
+    #display-order#paypal;
+
+    .order (@order );
+
+  }
+
+  .stripe {
+
+    &.slate {
+
+      #display-order#stripe#slate;
+
+      .order (@order );
+
+    }
+
+    &.white {
+
+      #display-order#stripe#white;
+
+      .order (@order );
+
+    }
+
+    &.blurple {
+
+      #display-order#stripe#blurple;
+
+      .order (@order );
+
+    }
+
+  }
+
+  // end stripe
+
+  #unionpay-icon {
+
+    #display-order#unionpay;
+
+    .order (@order );
+
+  }
+
+  .visa {
+
+    &.black {
+
+      #display-order#visa#black;
+
+      .order (@order );
+
+    }
+
+    &.white {
+
+      #display-order#visa#white;
+
+      .order (@order );
+
+    }
+
+    &.blue {
+
+      #display-order#visa#blue;
+
+      .order (@order );
+
+    }
+
+  }
+
+  // end visa
+
+}
+
+// end display/order icons
+
+// end payment processor icons
+
+/*
+
+  begin payment processor icons try to make some heights similar
+  
+  Version       : 0.1.0
+  
+  SS Versions   : 7.1, 7.0
+  
+  v7.1
+  Fluid
+  Engine
+  Compatible    : Yes
+  
+  Dependencies  : payment processor icons.less
+  
+  Copyright     : 2024 Thomas Creedon
+                  
+                  Tom's Web Consulting < http://www.tomsWeb.consulting/ >
+  
+  no user serviceable parts below
+  
+  */
+
+#twc-ppi {
+
+  .visa.blue,
+  .visa.white,
+  .mastercard.brand-mark.white-light.vertical,
+  .mastercard.brand-mark.black-dark.vertical,
+  .discover.primary,
+  #apple-pay-mark-icon {
+
+    svg {
+
+      width: @height-width * 1.66667;
+
+    }
+
+  }
+
+    .link-by-stripe.dark
+  
+  svg {
+
+    width: @height-width * 4.5;
+  }
+  
+  .link-by-stripe.light
+  
+  svg {
+
+    width: @height-width * 4.5;
+
+  }
+
+  #paypal-icon svg {
+
+    width: @height-width * 4.166667;
+
+  }
+
+  .afterpay.badge.black-on-bondi-mint svg {
+
+    width: @height-width * 3;
+
+  }
+
+}
+
+/* end payment processor icons try to make some heights similar */

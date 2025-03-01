@@ -1,0 +1,12 @@
+/*sold out on catalog*/
+div.product-mark.sold-out {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #FDF0E6 !important;
+  background: #7A8264;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: inline-block;
+}

@@ -1,0 +1,12 @@
+/* sold out on detail products */
+.sold-out .product-details .product-mark.sold-out {
+  font-size: 17px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #7A8264;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: inline-block !important;
+  margin-bottom: 0px;
+}

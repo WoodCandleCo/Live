@@ -1,0 +1,16 @@
+// Product Image Rounded Corners (Simple Layout) - Ghost //
+
+@product-img-radius: 15px;
+@thumbnail-img-radius: 15px;
+
+/* --- Do Not Edit Below ---- */
+
+.tweak-product-basic-item-gallery-design-slideshow .ProductItem-gallery-slides-item,
+.tweak-product-basic-item-gallery-design-carousel .ProductItem-gallery-slides-item,
+.tweak-product-basic-item-thumbnail-placement-below .ProductItem-gallery-slides img {
+  border-radius: @product-img-radius  !important;
+}
+
+.ProductItem-gallery-thumbnails-item img {
+  border-radius: @thumbnail-img-radius  !important;
+}

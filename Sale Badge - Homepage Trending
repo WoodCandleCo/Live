@@ -1,0 +1,19 @@
+/* Homepage trending sale badge */
+div.summary-item:has(.product-mark.sale) .summary-content:after {
+  content: "Sale";
+  font-size: 13px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #565656 !important;
+  background: #FFC857 !important;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  top: unset !important;
+  text-align: right;
+}
+
+div.summary-item:has(.product-mark.sale) .sale {
+  display: none;
+}

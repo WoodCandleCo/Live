@@ -1,0 +1,13 @@
+// PRODUCTS PAGE - SALE TEXT - GHOST //
+
+.ProductItem-details .ProductItem-product-price .product-mark.sale {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #565656;
+  background: #FFC857;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 0px;
+  display: inline-block;
+}

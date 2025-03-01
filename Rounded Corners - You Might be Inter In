@@ -1,0 +1,4 @@
+/* You might be interested rounded corners */
+figure.grid-image {
+  border-radius: 15px;
+}

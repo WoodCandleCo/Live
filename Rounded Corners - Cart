@@ -1,0 +1,6 @@
+// Shopping Cart - Product Images Rounded Corners - Ghost //
+
+.cart-row-img {
+  border-radius: 15px;
+}
+
